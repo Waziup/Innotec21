@@ -2,9 +2,10 @@
 
 This repo contains the IT21 website source files.
 
-Run
----
+Develop
+-------
 
+You can run the website locally in docker:
 ```
 docker build -t waziup/it21_website .
 docker run -it --net=host waziup/it21_website
